@@ -41,6 +41,8 @@ repositories {
     maven("https://repo.mineinabyss.com/releases") // PlayerAnimator
     maven("https://s01.oss.sonatype.org/content/repositories/snapshots") // CommandAPI snapshots
     maven("https://maven.enginehub.org/repo/")
+    maven("https://jitpack.io")
+
 }
 
 val commandApiVersion = "9.0.3"
@@ -73,6 +75,9 @@ dependencies {
     implementation("net.kyori:adventure-platform-bukkit:4.3.0")
     implementation("com.github.stefvanschie.inventoryframework:IF:0.10.9")
     implementation("com.jeff_media:CustomBlockData:2.2.0")
+    implementation("com.github.jeremyjefferson:CustomBlockData:2.2.0")
+    implementation("com.github.jeremyjefferson:MorePersistentDataTypes:2.4.0")
+    implementation("com.github.jeremyjefferson:PersistentDataSerializer:1.0-SNAPSHOT")
     implementation("com.jeff_media:MorePersistentDataTypes:2.4.0")
     implementation("com.jeff_media:PersistentDataSerializer:1.0-SNAPSHOT")
     implementation("gs.mclo:java:2.2.1")
