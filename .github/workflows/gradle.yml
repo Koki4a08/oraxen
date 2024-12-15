@@ -28,5 +28,5 @@ jobs:
       - name: Upload Plugin jar
         uses: actions/upload-artifact@v3
         with:
-          name: Oraxen
+          name: oraxen
           path: build/libs/*.jar
